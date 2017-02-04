@@ -49,20 +49,21 @@ To get started:
 left: 35%
 
 Scatterplot example
-```{r, echo=FALSE, fig.height=8, fig.width=8}
-x = state.x77[,3]; y = state.x77[,2]; df <- data.frame(x,y)
-plot(df$x, df$y, xlab="Illiteracy", ylab="Income",
-     main = "USA Data", cex=1, pch=16)
-abline(lm(y~x), col="blue", lwd=2)
- palette(c("black","red", "green3", "blue", "cyan", "magenta", "orange", "gray") )
- mtext <- text(df$x,df$y, pos=c(1,2,3,4),offset=0.25, rownames(state.x77), col=1:dim(state.x77)[1])
-```
+![plot of chunk unnamed-chunk-1](index-figure/unnamed-chunk-1-1.png)
 
 ***
 
 Few lines of the state.x77 dataset:
-```{r}
+
+```r
 state.x77[1:3, 1:5]
+```
+
+```
+        Population Income Illiteracy Life Exp Murder
+Alabama       3615   3624        2.1    69.05   15.1
+Alaska         365   6315        1.5    69.31   11.3
+Arizona       2212   4530        1.8    70.55    7.8
 ```
 <br>
 <br>
