@@ -38,8 +38,11 @@ shinyUI(fluidPage(
                         
                         br(),br(),
                         h5("Click link below to see documentataion for state.x77 dataset"),
-                        a("state.x77", target="_blank", href="https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/state.html")
-                        
+                        a("state.x77", target="_blank", href="https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/state.html"),
+                        br(), br(),
+                        h5("For a presentation pitch click link below"),
+                        a("Presentation_RPubs", href="http://rpubs.com/ooctig/247153")
+                
                 ),
                 mainPanel(
                         plotOutput("plot1", width = "100%", brush=brushOpts(id="brush1"),

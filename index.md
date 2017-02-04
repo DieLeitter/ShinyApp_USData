@@ -21,12 +21,12 @@ Introduction
 * Wondering if there is correlation between income and education?  
 * Does Us states with high Education level have lower murder rate?
 * Does the average frost number of days correlate with population? 
-* Does the life expextancy collerate with people illiteracy?
+* Does the life expextancy correlete with people illiteracy?
 
 <br>
 <br>
 
-<span style="font-weight:bold; font-size: 34pt;">You can stop wonering and get some solid numbers</span>
+<span style="font-weight:bold; font-size: 34pt;">You can stop wonering and get some numbers</span>
 
 
 
@@ -56,14 +56,14 @@ Scatterplot example
 Few lines of the state.x77 dataset:
 
 ```r
-state.x77[1:3, 1:5]
+state.x77[1:3, 1:4]
 ```
 
 ```
-        Population Income Illiteracy Life Exp Murder
-Alabama       3615   3624        2.1    69.05   15.1
-Alaska         365   6315        1.5    69.31   11.3
-Arizona       2212   4530        1.8    70.55    7.8
+        Population Income Illiteracy Life Exp
+Alabama       3615   3624        2.1    69.05
+Alaska         365   6315        1.5    69.31
+Arizona       2212   4530        1.8    70.55
 ```
 <br>
 <br>
