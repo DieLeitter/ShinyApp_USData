@@ -26,6 +26,7 @@ shinyUI(fluidPage(
                                                  "Area"),
                                     selected="Illiteracy"),
                         h3("Linear model"),
+                        h5("(Brush points to see fitted model)"),
                         h5("Slope"),
                         textOutput("SlopOut"),
                         h5("Intercept"),
